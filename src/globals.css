@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition: .2s ease-in;
+}
+a:hover {
+  border-bottom: 1px solid black;
+  color:black;
+}
